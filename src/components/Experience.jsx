@@ -3,7 +3,7 @@ const Experience = () => {
     <>
       <div className="h-screen min-h-screen mt-5" id="Experience">
         <p className="text-center">Explore My</p>
-        <h2 className="text-center text-5xl">Experience</h2>
+        <h2 className="text-center text-5xl font-semibold">Experience</h2>
         <div className="flex flex-wrap justify-center gap-10 p-40" id="frontend-backend">
           <div
             className="w-2/5 p-10  rounded-xl  border-2 border-black"
