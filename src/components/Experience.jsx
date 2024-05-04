@@ -1,12 +1,12 @@
 const Experience = () => {
   return (
     <>
-      <div className="h-screen min-h-screen mt-5" id="Experience">
+      <div className="h-auto min-h-screen mt-5" id="Experience">
         <p className="text-center">Explore My</p>
         <h2 className="text-center text-5xl font-semibold">Experience</h2>
         <div className="flex flex-wrap justify-center gap-10 p-40" id="frontend-backend">
           <div
-            className="w-2/5 p-10  rounded-xl  border-2 border-black"
+            className="w-2/5 min-w-80 p-10  rounded-xl  border-2 border-black"
             id="frontend"
           >
             <h2 className="mb-10 text-center text-3xl text-gray-500">
@@ -63,7 +63,7 @@ const Experience = () => {
           </div>
 
           <div
-            className="w-2/5 p-10  rounded-xl  border-2 border-black"
+            className="w-2/5 p-10 min-w-80  rounded-xl  border-2 border-black"
             id="backend"
           >
             <h2 className="mb-10 text-center text-3xl text-gray-500">

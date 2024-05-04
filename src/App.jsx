@@ -6,17 +6,23 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
-import Bio from "./components/About";
+import Contact from "./components/Contact";
 
 
 function App() {
+  const [navActive,setNavActive] = useState(false);
+  const toggleNav = ()=>{
+    setNavActive(!navActive);
+  }
   return (
     <>
-      <Nav />
-      <Home />
-      <About />
-      <Experience />
-      <Projects />
+        <Nav navActive={navActive} toggleNav={toggleNav} />
+        <Home />
+        <About />
+        <Experience />
+        <Projects />
+        <br className=" min-h-screen" />
+        <Contact />
     </>
   );
 }

@@ -5,3 +5,18 @@
 *{
     scroll-behavior: smooth;
 }
+
+
+@media (max-width:900px) {
+    #name{
+        display: none;
+    }
+    #nav-buttons{
+        display: none;
+    }
+}
+@media (min-width:900px) {
+    .show-button{
+        display: none;
+    }
+}
