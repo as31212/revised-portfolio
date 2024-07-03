@@ -20,3 +20,22 @@
         display: none;
     }
 }
+
+/* hamburger to x animation */
+
+
+.line {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.top-line-active {
+    transform: rotate(45deg) translate(9px, 6px);
+}
+
+.bottom-line-active {
+    transform: rotate(-45deg) translate(9px, -5px);
+}
+
+
+/* hamburger to x animation */
+
