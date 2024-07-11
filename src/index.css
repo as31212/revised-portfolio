@@ -39,3 +39,11 @@
 
 /* hamburger to x animation */
 
+#nav{
+    max-height: 80px;
+    transition: max-height .4s ease-in-out, opacity .4s ease-in-out;
+    overflow: hidden;
+}
+#nav.active{
+    max-height: 400px;
+}
