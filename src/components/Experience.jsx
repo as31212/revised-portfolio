@@ -1,11 +1,33 @@
+import { motion } from "framer-motion";
+
 const Experience = () => {
   return (
     <>
       <div className="h-auto min-h-screen mt-5" id="Experience">
-        <p className="text-center">Explore My</p>
-        <h2 className="text-center text-5xl font-semibold">Experience</h2>
+      <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          className="text-center"
+        >
+          Explore My
+        </motion.p>
+        <motion.h2
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4 }}
+          className="text-center text-5xl font-semibold"
+        >
+          Experience
+        </motion.h2>
         <div className="flex flex-wrap justify-center gap-10 p-40" id="frontend-backend">
-          <div
+          <motion.div
+          initial={{opacity:0 , y:100}}
+          whileInView={{opacity:1 , y:0}}
+          transition={{duration: .4}}
+          viewport={{once:true}}
             className="w-2/5 min-w-80 p-10  rounded-xl  border-2 border-black"
             id="frontend"
           >
@@ -60,9 +82,13 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div
+          <motion.div
+          initial={{opacity:0 , y:100}}
+          whileInView={{opacity:1 , y:0}}
+          transition={{duration: .4}}
+          viewport={{once:true}}
             className="w-2/5 p-10 min-w-80  rounded-xl  border-2 border-black"
             id="backend"
           >
@@ -117,7 +143,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

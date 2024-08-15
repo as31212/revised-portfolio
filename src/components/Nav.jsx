@@ -1,3 +1,5 @@
+import { NavLineAnimation } from "./NavLineAnimation";
+
 const Nav = ({ navActive, toggleNav }) => {
     return (
         <>
@@ -18,7 +20,7 @@ const Nav = ({ navActive, toggleNav }) => {
                     <a onClick={()=>toggleNav()} href="#Contact"><li>Contact</li></a>
                 </ul>
                 <ul id="nav-buttons" className='flex gap-10'>
-                    <a href="#About"><li>About</li></a>
+                    <a href="#About"><li>About</li><NavLineAnimation/></a>
                     <a href="#Experience"><li>Experience</li></a>
                     <a href="#Projects"><li>Projects</li></a>
                     <a href="#Contact"><li>Contact</li></a>
