@@ -5,122 +5,53 @@ const Experience = () => {
         <p className="text-center">Explore My</p>
         <h2 className="text-center text-5xl font-semibold">Experience</h2>
         <div className="flex flex-wrap justify-center gap-10 p-40" id="frontend-backend">
-          <div
-            className="w-2/5 min-w-80 p-10  rounded-xl  border-2 border-black"
-            id="frontend"
-          >
-            <h2 className="mb-10 text-center text-3xl text-gray-500">
-              Frontend Development
-            </h2>
-            <div className="flex flex-wrap justify-between" id="frontend-skills">
-              <div className="flex flex-wrap flex-col" id="frontend-skills-left">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">HTML</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">CSS</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Javascript</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-wrap flex-col" id="frontend-skills-right">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">React</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Tailwind</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Typescript</p>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
+          {/* Village of Wilmette - GIS Intern */}
+          <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
+            <h3 className="text-3xl font-bold">Village of Wilmette – Engineering and Public Works</h3>
+            <p className="text-xl"><em>Geography Information Systems Intern</em> - <em>Summer 2024</em></p>
+            <ul className="list-disc pl-5">
+              <li>Conducted field data collection for water and sewer infrastructure</li>
+              <li>Integrated collected data into the village's GIS system</li>
+            </ul>
           </div>
 
-          <div
-            className="w-2/5 p-10 min-w-80  rounded-xl  border-2 border-black"
-            id="backend"
-          >
-            <h2 className="mb-10 text-center text-3xl text-gray-500">
-              Backend Development
-            </h2>
-            <div className="flex flex-wrap justify-between" id="backend-skills">
-              <div className="flex flex-wrap flex-col" id="backend-skills-left">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Python</p>
-                    <p>Basic</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex "flex-wrap >
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">SQL</p>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">NodeJS</p>
-                    <p>Basic</p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-wrap flex-col" id="backend-skills-right">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">ExpressJS</p>
-                    <p>Basic</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">MongoDB</p>
-                    <p>Basic</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Rest API</p>
-                    <p>Basic</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Colgate University - Geography Research Assistant */}
+          <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
+            <h3 className="text-3xl font-bold">Colgate University</h3>
+            <p className="text-xl"><em>Geography Research Assistant</em> - <em>Spring 2024</em></p>
           </div>
+
+          {/* Colgate University - Python TA */}
+          <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
+            <h3 className="text-3xl font-bold">Colgate University – Department of Computer Science</h3>
+            <p className="text-xl"><em>Python Teaching Assistant</em> - <em>Fall 2023</em></p>
+          </div>
+
+          {/* New Trier Democrats - Data Analyst */}
+          <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
+            <h3 className="text-3xl font-bold">New Trier Democrats</h3>
+            <p className="text-xl"><em>Data Analyst</em> - <em>Summer 2023</em></p>
+            <ul className="list-disc pl-5">
+              <li>Performed multivariate analysis to evaluate voter behavior</li>
+              <li>Created targeted outreach strategies</li>
+            </ul>
+          </div>
+
+          {/* Village of Wilmette - Community Development Internship */}
+          <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
+            <h3 className="text-3xl font-bold">Village of Wilmette</h3>
+            <p className="text-xl"><em>Community Development Internship</em> - <em>Summer 2022</em></p>
+            <ul className="list-disc pl-5">
+              <li>Facilitated administrative processes for Village Forester</li>
+              <li>Input GIS data points into a geospatial database for tree inventory tracking</li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </>
   );
 };
+
 export default Experience;

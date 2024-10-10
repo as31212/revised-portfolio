@@ -1,5 +1,6 @@
 
 const About = ()=>{
+    const date = new Date();
 
     return(
         <>
@@ -10,18 +11,18 @@ const About = ()=>{
                 <div className=" min-w-80 border-2 border-gray-400 w-1/3 text-center p-10 text-2xl rounded-xl" id="experience">
                 <i class="fa-solid fa-medal"></i>
                     <p className="font-bold">Experience</p>
-                    <p>1+ years</p>
-                    <p>Frontend Development</p>
+                    <p>{date.getFullYear() - 2022}+ years</p>
+                    <p>GIS</p>
                     <p></p>
                 </div>
                 <div className="min-w-80 border-2 border-gray-400 w-1/3 text-center p-10 text-2xl rounded-xl" id="education">
                 <i class="fa-solid fa-book"></i>
                     <p className="font-bold">Education</p>
-                    <p>Bachelors Degree</p>
-                    <p>BBA Business Analytics</p>
+                    <p>Bachelors of Arts</p>
+                    <p>Geography</p>
                 </div>
             </div>
-            <div className="min-w-80 border-2 mb-10 mt-10 mr-auto ml-auto border-gray-400 w-1/2 text-center p-10 text-2xl rounded-xl"><p>As a self-taught frontend engineer, my journey in tech is fueled by an unquenchable thirst for knowledge and a commitment to continuous learning. Starting from scratch, I have cultivated a deep understanding of both design and data handling, enabling me to tackle complex challenges with precision and creativity. My ability to learn and adapt quickly is not just a skill but a cornerstone of my professional philosophy. I am always eager to expand my expertise and embrace new technologies or methodologies that enhance my effectiveness and contribute value to my team. This proactive approach ensures that I am always ready to meet the evolving demands of the tech industry.</p></div>
+            <div className="min-w-80 border-2 mb-10 mt-10 mr-auto ml-auto border-gray-400 w-1/2 text-center p-10 text-2xl rounded-xl"><p>I graduated from Colgate University, earning my Bachelor of Arts in Geography and a minor in Computer Science. My academic journey included writing an honors thesis on heat vulnerability, which deepened my understanding of environmental challenges. With over two years of professional experience in GIS, including a rewarding internship in local government, I’ve enjoyed helping the public and learning about community needs.  I’m passionate about GIS and excited to explore all its applications, especially in public health, as I aim to use my skills to drive positive change in communities. When I’m not working, you’ll likely find me enjoying a baseball game—go Cubs!</p></div>
         </section>
         </>
     );
