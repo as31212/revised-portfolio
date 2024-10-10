@@ -12,7 +12,7 @@ const Home = ()=>{
       <div className='flex flex-col gap-3' id="Home-text">
         <p className='text-2xl font-bold'>Hello, I'm</p>
         <h2 className='font-bold text-5xl'>Garrett Kalter</h2>
-        <h3 className='font-bold text-3xl text-gray-500'>GIS Engineer</h3>
+        <h3 className='font-bold text-3xl text-gray-500'>Aspiring GIS Professional</h3>
         <div id="download-buttons">
           {/* Add your download buttons here */}
         </div>

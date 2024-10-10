@@ -18,14 +18,20 @@ const Experience = () => {
 
           {/* Colgate University - Geography Research Assistant */}
           <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
-            <h3 className="text-3xl font-bold">Colgate University</h3>
+            <h3 className="text-3xl font-bold">Colgate University - Department of Geography</h3>
             <p className="text-xl"><em>Geography Research Assistant</em> - <em>Spring 2024</em></p>
+            <ul className="list-disc pl-5">
+              <li>Assisted in solving GIS-related problems and visualizing data using QGIS and ArcGIS</li>
+            </ul>
           </div>
 
           {/* Colgate University - Python TA */}
           <div className="w-3/5 min-w-80 p-10 rounded-xl border-2 border-black flex flex-col gap-4">
             <h3 className="text-3xl font-bold">Colgate University – Department of Computer Science</h3>
             <p className="text-xl"><em>Python Teaching Assistant</em> - <em>Fall 2023</em></p>
+            <ul className="list-disc pl-5">
+              <li>Assisted dozens of students in debugging Python code and provided support in understanding programming concepts</li>
+            </ul>
           </div>
 
           {/* New Trier Democrats - Data Analyst */}

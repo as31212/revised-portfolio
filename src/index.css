@@ -47,3 +47,13 @@
 #nav.active{
     max-height: 400px;
 }
+
+/* media query for projects */
+@media (max-width:1000px){
+    .project{
+        flex-wrap: wrap;
+    }  
+    .project-image{
+        width: 100%;
+    }
+}

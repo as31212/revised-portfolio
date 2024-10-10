@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Nav from "./components/Nav";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
